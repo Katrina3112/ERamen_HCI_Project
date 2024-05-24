@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F3F3F3;
+    overflow-x: hidden;
+}
+
+.landing_about{
+    width: 100vw;
+    margin-bottom: 50px;
+    margin-top: -90px;
+}
+
+.about_content{
+    width: 100vw;
+    background-image: url(/Asset/Pic/About_BgBlack.png);
+    background-size: cover;
+    height: 420px;
+    background-repeat: no-repeat;
+}
+
+.about{
+    width: 100vw;
+    margin-bottom: 200px;
+}
+
+.about_content2{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#AU{
+    font-family: 'Montaga';
+    font-size: 45px;
+    color: #343434;
+    margin: 0;
+}
+
+#FO{
+    font-family: 'poppins';
+    font-size: 19px;
+    line-height: 38px;
+    color: #9C9595;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_tittle > span{
+    padding: 0;
+    width: 350px;
+    border: 1px solid #000000;
+}
+
+.about_tittle{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.about_box{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background: #E9DCBE;
+    height: 270px;
+    justify-content: space-between;
+}
+
+.ab_left{
+    width: 55%;
+    margin-left: 30px;
+}
+
+.ab_left > h2{
+    font-family: 'Montaga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+    color: #343434;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.ab_left > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    color: #727272;
+    margin-left: 20px;
+}
+
+.ab_right{
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ab_img{
+    width: 90%;
+}
+
+.vision_and_mission{
+    width: 100vw;
+    display: grid;
+    margin-bottom: 150px;
+}
+
+.vm_box{
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.vm_box1{
+    background-color: aqua;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.vm_box2{
+    background-color: antiquewhite;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.vm_box3{
+    background-color: blueviolet;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.vm_box4{
+    background-color: #727272;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.grid-container > div {
+    height: 276px;
+}
+
+.grid-item1{
+    grid-column: 1/2;
+}
+
+.grid-item2{
+    grid-column: 2/3;
+}
+
+.grid-item3{
+    grid-column: 1/2;
+}
+
+.grid-item4{
+    grid-column: 2/3;
+}
+
+.grid_img{
+    height: 100%;
+}
+
+.content3_posisition{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.content1_posisition{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 55%;
+    background: linear-gradient(270.44deg, #E9DCBE 43.17%, rgba(253, 241, 241, 0) 119.48%);
+    height: 100%;
+}
+
+.grid-item1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.content4_position{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    background: linear-gradient(270.44deg, #E9DCBE 43.17%, rgba(255, 255, 255, 0) 119.48%);
+    transform: rotate(-180deg);
+    height: 100%;
+    justify-content: center;
+}
+
+.content4_isi{
+    transform: rotate(-180deg);
+    
+}
+
+.content1_posisition > h2{
+    font-family: 'Montaga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #343434;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.content1_posisition > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #727272;
+    margin-left: 10px;
+}
+
+.content4_isi > h2{
+    font-family: 'Montaga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #343434;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.content4_isi > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #727272;
+    margin-left: 10px;
+}
+

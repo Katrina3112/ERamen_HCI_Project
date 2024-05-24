@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./Css/navbar.css">
+    <link rel="stylesheet" href="./Css/contact.css">
+    <link rel="stylesheet" href="./Css/footer.css">
+
+    <link
+        rel="shortcut icon"
+        href="./Asset/Logo/Logo_saja..png"
+        type="image/x-icon"
+    />
+
+    <script defer src="./JS/contact.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav_content">
+            <div class="nav_left">
+                <img class="pic_logo" src="./Asset/Logo/logo_eramen_fix..png" alt="">
+            </div>
+            <div class="nav_right">
+                <a href="./homepage.html">Home</a>
+                <a href="./products.html">Products</a>
+                <a href="./promotions.html">Promotions</a>
+                <a href="./aboutUs.html">About Us</a>
+                <a href="./contactUs.html">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contactUs">
+        <div class="contact_content">
+            <div class="contact_box">
+                <div class="contact_content_top">
+                    <p>Connect with us</p>
+                </div>
+                <form id="form-register" action="" method="post">
+                    <label class="label_form" for="input-fullname">Full Name</label>
+                    <input type="text" name="fullname" id="input-fullname">
+                    <label class="label_form" for="input-email">E-mail</label>
+                    <input type="email" name="email" id="input-email">
+                    <label class="label_form" for="input-telephone">Phone Number</label>
+                    <input type="tel" name="telephone" id="input-telephone">
+                    <label class="label_form" for="preferences">Preferences</label><br>
+                    <div class="preference_radio">
+                        <input type="radio" name="preferences" id="Ramen">
+                        <label class="radio_option" for="Ramen">Ramen</label> <br>
+                        <input type="radio" name="preferences" id="Dry_Ramen">
+                        <label class="radio_option"  for="Dry_Ramen">Dry Ramen</label>
+                    </div>
+                    <div class="form_bottom">
+                        <div class="fb_kiri">
+                            <input type="checkbox" name="agree" id="agree">
+                            <label class="agree" for="agree">I agree to receive newsletter</label>
+                        </div>
+                        <div class="fb_kanan">
+                            <button class="btn_kanan">
+                                Send
+                                <img class="arrow_di_btn" src="./Asset/Icon/icon_arrowWhite.png" alt="">
+                            </button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <p class="contact_tittle">Contact us</p>
+        </div>
+
+    </section>
+    
+
+    <footer class="footer">
+        <div class="foot_left">
+            <p class="foot_tittle">ERamen</p>
+            <p class="foot_content">We are one of the best and oldest ramen shops in the world.  We maintain our reputation and pursue for the best.</p>
+            <div class="foot_comp">
+                <img class="footer_img" src="./Asset/Icon/icon_address.png" alt="">
+                <p>Big Plaza Street, Jakarta</p>
+            </div>
+            <div class="foot_comp">
+                <img class="footer_img" src="./Asset/Icon/icon_call.png" alt="">
+                <p>+622145045467</p>
+            </div>
+            <div class="foot_comp">
+                <img class="footer_img" src="./Asset/Icon/icon_mail.png" alt="">
+                <p>ERamen@office.com</p>
+            </div>
+        </div>
+        <div class="foot_mid">
+            <p class="foot_tittle">Opening Time</p>
+            <p class="foot_content">Mon - Fri : 10 AM - 11 PM</p>
+            <p class="foot_content">Sat : 9 AM - 11 PM</p>
+            <p class="foot_content">Sun : 9 AM - 8 PM</p>
+            <br>
+            <p class="foot_content">Open On Holidays</p>
+        </div>
+        <div class="foot_right">
+            <p class="foot_tittle">Follow Us</p>
+            <div class="foot_comp">
+                <a class="foot_link" href="https://www.facebook.com/facebook">
+                    <img class="footer_img" src="./Asset/Icon/icon_facebook.png" alt="">
+                    <p>E-Ramen</p>
+                </a>
+            </div>
+            <div class="foot_comp">
+                <a class="foot_link" href="https://www.youtube.com/">
+                    <img class="footer_img" src="./Asset/Icon/icon_youtube.png" alt="">
+                    <p>E-Ramen</p>
+                </a>
+            </div>
+            <div class="foot_comp">
+                <a class="foot_link" href="https://www.instagram.com/">
+                    <img class="footer_img" src="./Asset/Icon/icon_instagram.png" alt="">
+                    <p>ERamen.Indo</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

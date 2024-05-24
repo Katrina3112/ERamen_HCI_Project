@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #3C3C3C;
+    overflow-x: hidden;
+}
+
+.landing_product{
+    width: 100vw;
+    margin-bottom: 50px;
+    margin-top: -90px;
+}
+
+.landing_content{
+    width: 100vw;
+    background-image: url(/Asset/Pic/About_BgBlack.png);
+    background-size: cover;
+    height: 420px;
+    background-repeat: no-repeat;
+    margin-top: -90px;
+}
+
+
+.best_seller{
+    width: 100vw;
+    margin-bottom: 150px;
+}
+
+.best_seller_content{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#BS{
+    font-family: 'Montaga';
+    font-size: 45px;
+    color: white;
+    margin: 0;
+}
+
+#TO{
+    font-family: 'poppins';
+    font-size: 19px;
+    line-height: 38px;
+    color: #9C9595;
+    margin: 0;
+}
+
+.best_tittle{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.best_tittle > span{
+    padding: 0;
+    width: 350px;
+    border: 1px solid #FFFFFF;
+}
+
+.best_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 35px;
+    gap: 45px;
+}
+
+.bc_img{
+    width: 500px;
+}
+
+.bc_right > h1{
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Montaga';
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.bc_right > h2{
+    font-family: 'Montaga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #9C9595;
+    margin-top: 0;
+    margin-left: 150px;
+}
+
+.bc_right > p{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #9C9595;
+}
+
+.main_menu{
+    width: 100vw;
+}
+
+.main_content{
+    width: 100vw;
+}
+
+.card_row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 105px;
+}
+
+.card_box{
+    width: 30%;
+    background-color: #E9DCBE;
+    
+}
+
+.side_menu{
+    width: 100vw;
+}
+
+.card_img{
+    width: 100%;
+}
+
+.card_box > h1{
+    font-family: 'Montaga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: #343434;
+    margin: 0px 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.card_box > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #343434;
+    margin: 0px 15px;
+    padding-bottom: 20px;
+}
