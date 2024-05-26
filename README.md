@@ -1,6 +1,6 @@
 # ERamen
 
-ERamen adalah proyek yang saya kerjakan sebagai final project dari mata kuliah Human Computer Interaction. ERamen adalah restaurant ramen yang ingin memperbarui website mereka agar sesuai dengan image ERamen saat ini. Design prototype menggunakan aplikasi Figma. Kemudian, implementasi design ke dalam HTML, CSS, dan JS.
+ERamen adalah proyek yang saya kerjakan sebagai final project dari mata kuliah Human Computer Interaction. ERamen adalah restaurant ramen yang ingin memperbarui website mereka agar sesuai dengan image ERamen saat ini. Design prototype menggunakan aplikasi Figma. Kemudian, design diimplementasi ke dalam HTML, CSS, dan JS.
 Website ini terdiri dari lima halaman, yaitu home page, products, promotions, about us, dan contact us. Home page menjadi gambaran isi keseluruhan website dengan memberikan informasi menu apa yang menjadi best seller, apa saja menu yang baru dikeluarkan, dan apa saja promo yang ditawarkan. Products page berisi mengenai menu-menu yang disajikan di ERamen beserta deskripsi singkat setiap menu. Promotions page menyajikan kupon-kupon voucher yang dapat di-klaim oleh user. About us bercerita mengenai sejarah ERamen dan visi misi restaurant. Terakhir apabila user memiliki saran atau kritik dapat disampaikan pada contact us.
 
 ## Pages
