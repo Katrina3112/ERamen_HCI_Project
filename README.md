@@ -16,7 +16,3 @@ Website ini terdiri dari lima halaman, yaitu home page, products, promotions, ab
 1. Clone repository https://github.com/Katrina3112/ERamen_HCI_Project.git
 2. Buka project yang di clone dengan Visual Studio Code
 
-
-## Demo
-Untuk melihat demo aplikasi silahkan klik link berikut:
-[link]
